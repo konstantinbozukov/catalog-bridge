@@ -1,0 +1,182 @@
+[
+  {
+    "id": "quora-air-fryer-small-kitchen",
+    "adapter": "quora",
+    "name": "Quora — best air fryer small apartment / under $100 cluster",
+    "comp_slugs": ["air-fryer-small-kitchen-under-100"],
+    "status": "candidate",
+    "rules_notes": "Helpful answer first; catalog link only; disclosure",
+    "account_gate": "none"
+  },
+  {
+    "id": "quora-air-fryer-couple",
+    "adapter": "quora",
+    "name": "Quora — air fryer for 1-2 people / solo cooking",
+    "comp_slugs": ["air-fryer-1-2-people"],
+    "status": "candidate",
+    "rules_notes": "Match household size constraint",
+    "account_gate": "none"
+  },
+  {
+    "id": "quora-kettle-dorm",
+    "adapter": "quora",
+    "name": "Quora — compact kettle dorm / small apartment",
+    "comp_slugs": ["compact-kettle-small-kitchen"],
+    "status": "candidate",
+    "rules_notes": "Space constraint focus",
+    "account_gate": "none"
+  },
+  {
+    "id": "quora-chopper-beginners",
+    "adapter": "quora",
+    "name": "Quora — vegetable chopper meal prep beginners",
+    "comp_slugs": ["vegetable-chopper-beginners"],
+    "status": "candidate",
+    "rules_notes": "Beginner framing; no health claims",
+    "account_gate": "none"
+  },
+  {
+    "id": "quora-frother-budget",
+    "adapter": "quora",
+    "name": "Quora — milk frother budget / latte at home",
+    "comp_slugs": ["milk-frother-under-25"],
+    "status": "candidate",
+    "rules_notes": "Under $25 constraint",
+    "account_gate": "none"
+  },
+  {
+    "id": "pinterest-air-fryer-small",
+    "adapter": "pinterest",
+    "name": "Pinterest — small kitchen air fryer keyword set",
+    "comp_slugs": ["air-fryer-small-kitchen-under-100", "air-fryer-1-2-people"],
+    "status": "candidate",
+    "rules_notes": "Visual pin; search intent titles",
+    "account_gate": "none"
+  },
+  {
+    "id": "pinterest-kettle-compact",
+    "adapter": "pinterest",
+    "name": "Pinterest — compact electric kettle",
+    "comp_slugs": ["compact-kettle-small-kitchen"],
+    "status": "candidate",
+    "rules_notes": "Dorm / small kitchen boards",
+    "account_gate": "none"
+  },
+  {
+    "id": "pinterest-chopper-mealprep",
+    "adapter": "pinterest",
+    "name": "Pinterest — vegetable chopper meal prep",
+    "comp_slugs": ["vegetable-chopper-beginners"],
+    "status": "candidate",
+    "rules_notes": "Meal prep visual angle",
+    "account_gate": "none"
+  },
+  {
+    "id": "pinterest-frother-coffee",
+    "adapter": "pinterest",
+    "name": "Pinterest — budget milk frother coffee",
+    "comp_slugs": ["milk-frother-under-25"],
+    "status": "candidate",
+    "rules_notes": "Coffee at home angle",
+    "account_gate": "none"
+  },
+  {
+    "id": "medium-air-fryer-guide",
+    "adapter": "medium",
+    "name": "Medium — small kitchen air fryer constraint guide",
+    "comp_slugs": ["air-fryer-small-kitchen-under-100"],
+    "status": "candidate",
+    "rules_notes": "Syndicate with added intro; link to full comp",
+    "account_gate": "none"
+  },
+  {
+    "id": "medium-kettle-guide",
+    "adapter": "medium",
+    "name": "Medium — compact kettle for small spaces",
+    "comp_slugs": ["compact-kettle-small-kitchen"],
+    "status": "candidate",
+    "rules_notes": "Syndication",
+    "account_gate": "none"
+  },
+  {
+    "id": "medium-chopper-guide",
+    "adapter": "medium",
+    "name": "Medium — chopper for beginners",
+    "comp_slugs": ["vegetable-chopper-beginners"],
+    "status": "candidate",
+    "rules_notes": "Syndication",
+    "account_gate": "none"
+  },
+  {
+    "id": "reddit-airfryer-warm",
+    "adapter": "reddit",
+    "name": "r/AirFryer — recommend threads (after warm)",
+    "comp_slugs": ["air-fryer-small-kitchen-under-100", "air-fryer-1-2-people"],
+    "status": "deferred",
+    "rules_notes": "Karma warm required; value-first; check sub rules",
+    "account_gate": "karma"
+  },
+  {
+    "id": "reddit-cooking-warm",
+    "adapter": "reddit",
+    "name": "r/Cooking — gear recommendation threads (after warm)",
+    "comp_slugs": ["vegetable-chopper-beginners", "compact-kettle-small-kitchen"],
+    "status": "deferred",
+    "rules_notes": "Light touch; hostile to spam",
+    "account_gate": "karma"
+  },
+  {
+    "id": "reddit-budgetfood-warm",
+    "adapter": "reddit",
+    "name": "r/BudgetFood / r/EatCheapAndHealthy — budget gear",
+    "comp_slugs": ["air-fryer-small-kitchen-under-100", "milk-frother-under-25"],
+    "status": "deferred",
+    "rules_notes": "Budget angle required",
+    "account_gate": "karma"
+  },
+  {
+    "id": "seo-air-fryer-small",
+    "adapter": "seo",
+    "name": "Google — best air fryer small kitchen under 100",
+    "comp_slugs": ["air-fryer-small-kitchen-under-100"],
+    "status": "candidate",
+    "rules_notes": "Own comp page; Search Console after publish",
+    "account_gate": "none"
+  },
+  {
+    "id": "seo-air-fryer-couple",
+    "adapter": "seo",
+    "name": "Google — best air fryer for 1-2 people",
+    "comp_slugs": ["air-fryer-1-2-people"],
+    "status": "candidate",
+    "rules_notes": "Long-tail capacity constraint",
+    "account_gate": "none"
+  },
+  {
+    "id": "seo-kettle-compact",
+    "adapter": "seo",
+    "name": "Google — compact electric kettle dorm",
+    "comp_slugs": ["compact-kettle-small-kitchen"],
+    "status": "candidate",
+    "rules_notes": "Dorm / small apartment intent",
+    "account_gate": "none"
+  },
+  {
+    "id": "seo-chopper-beginners",
+    "adapter": "seo",
+    "name": "Google — best vegetable chopper beginners",
+    "comp_slugs": ["vegetable-chopper-beginners"],
+    "status": "candidate",
+    "rules_notes": "Meal prep beginner intent",
+    "account_gate": "none"
+  },
+  {
+    "id": "seo-frother-under-25",
+    "adapter": "seo",
+    "name": "Google — best milk frother under 25",
+    "comp_slugs": ["milk-frother-under-25"],
+    "status": "candidate",
+    "rules_notes": "Budget coffee intent",
+    "account_gate": "none"
+  }
+]
