@@ -3,6 +3,8 @@
 Kitchen constraint-comparison catalog + (later) Answer Insertion Engine for Amazon Associates commissions.
 
 **Hub idea:** `018` — [tech-business-ideas](https://github.com/konstantinbozukov/tech-business-ideas)  
+**GitHub:** https://github.com/konstantinbozukov/catalog-bridge  
+**Local:** `E:\AI\catalog-bridge`  
 **Status:** v0 vertical slice in progress  
 **Graduated:** 2026-08-10
 
